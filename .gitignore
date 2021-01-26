@@ -8,3 +8,6 @@ training/models/*.t7
 *.py[cod]
 __pycache__/
 *.oso
+/tmp
+/out
+

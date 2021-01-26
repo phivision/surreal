@@ -98,6 +98,10 @@ if __name__ == '__main__':
         for exr_path in openexr_py2_path.split(':'):
             sys.path.insert(1, exr_path)
 
+
+    # to install OpenEXR:
+    # export ARCHFLAGS = "-arch x86_64"
+    # CPPFLAGS = "-std=c++11"
     # to read exr imgs
     import OpenEXR 
     import array

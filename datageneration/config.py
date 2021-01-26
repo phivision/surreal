@@ -6,7 +6,8 @@ import random
 
 def load_file(filename='config', section='SYNTH_DATA'):
 	# returns dictionary with all params
-	
+
+
 	# Import configuration
 	config = configparser.ConfigParser()
 	res = config.read(filename)
